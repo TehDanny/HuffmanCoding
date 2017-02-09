@@ -10,6 +10,7 @@ namespace HuffmanCoding
     {
         static void Main(string[] args)
         {
+            //SavePictureAsBytes("C:\\Users\bruger\\Dropbox\\EAL - Datamatiker\\4. semester\\Advanced Programming\\HuffmanPicture.jpg");
             /*
             byte[] fileBytes = System.IO.File.ReadAllBytes("C:\\Users\\bruger\\Pictures\\5f2342b8524f36b340f397d2598797a4.jpg");
             for (int i = 0; i < 10; i++)
@@ -46,6 +47,7 @@ namespace HuffmanCoding
             Console.ReadKey();
             */
 
+            /*
             List<byte> huffmanData = new List<byte>();
 
             huffmanData.Add(0);
@@ -78,6 +80,20 @@ namespace HuffmanCoding
             }
 
             System.IO.File.WriteAllBytes("C:\\Users\\bruger\\Dropbox\\EAL - Datamatiker\\4. semester\\Advanced Programming\\adp.data", fileData);
+            */
         }
+
+        /*
+        private static void SavePictureAsBytes(string picturePath)
+        {
+            byte[] fileBytes = System.IO.File.ReadAllBytes(picturePath);
+            long[,] byteOccurences
+            for (int i = 0; i < 10; i++)
+            {
+                int byteNumber = fileBytes[i];
+                //Console.WriteLine(byteNumber);
+            }
+        }
+        */
     }
 }
